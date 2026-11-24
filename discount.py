@@ -4,7 +4,7 @@ class DiscountCalculator:
 
         if customer_type == "PREMIUM":
             if amount >= 5000:
-                return amount * 0.25
+                return amount * 0.70
             elif amount >= 2000:
                 return amount * 0.10
             else:

@@ -16,3 +16,4 @@ order1 = Order(
 )
 
 order1.generate_bill()
+print("Completed")
